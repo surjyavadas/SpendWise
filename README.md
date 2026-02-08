@@ -1,16 +1,50 @@
-# spendwise
+# 💸 SpendWise
 
-A new Flutter project.
+SpendWise is a modern, privacy-friendly expense tracking app built with **Flutter**.  
+It focuses on a **clean UI**, **calm UX**, and **realistic budgeting insights**, inspired by Google-style design principles.
 
-## Getting Started
+> 🚧 The project is actively evolving. Core features are stable, and more improvements are planned after exams.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📊 Monthly budget tracking
+- ➕ Add & manage expenses
+- 📸 Receipt scanner (OCR-based)
+- 🌗 Automatic light / dark mode (system-based)
+- ⚠️ Smart budget warnings (non-intrusive)
+- 📈 Spending overview by category
+- 💾 Local storage (no cloud, privacy-first)
+- 🎨 Material 3 + modern UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🖼️ Screenshots
+
+> Screenshots will be added soon.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (Material 3)
+- **Provider** (state management)
+- **Shared Preferences** (local storage)
+- **Google ML Kit** (receipt scanning)
+- **Kotlin DSL** (`build.gradle.kts`)
+- **R8 + ProGuard** (release optimization)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (stable)
+- Android Studio / Android SDK
+- A physical Android device or emulator
+
+### Clone the repository
+```bash
+git clone https://github.com/your-username/spendwise.git
+cd spendwise
