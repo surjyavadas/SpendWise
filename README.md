@@ -45,6 +45,18 @@ It focuses on a **clean UI**, **calm UX**, and **realistic budgeting insights**,
 - A physical Android device or emulator
 
 ### Clone the repository
-```bash
+bash
 git clone https://github.com/your-username/spendwise.git
 cd spendwise
+
+###Install dependencies
+flutter pub get
+
+RUN THE APP
+flutter run
+
+Build APK (Release)
+flutter clean
+flutter pub get
+flutter build apk --release
+
